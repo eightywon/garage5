@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport" />
+	<title>
+		Garage Door
+	</title>
+	<link href="lib/tau/wearable/theme/default/tau.css" rel="stylesheet" />
+	<link href="lib/tau/wearable/theme/default/tau.circle.css" media="all and (-tizen-geometric-shape: circle)" rel="stylesheet" />
+	<link href="css/style.css" rel="stylesheet" />
+	<link href="css/style.circle.css" media="all and (-tizen-geometric-shape: circle)" rel="stylesheet" />
+	<script src="js/circle-helper.js">
+	</script>
+	<script src="lib/tau/wearable/js/tau.js">
+	</script>
+</head>
+
+<body>
+	<div class="ui-page" id="main">
+		<header class="ui-header">
+			<h2 class="ui-title">
+				Garage Door
+			</h2>
+		</header>
+		<div class="ui-content">
+			<a href="#" class="ui-btn" id="toggleGarage" >Open Garage</a>
+			<p class="ui-footer" id="result"></p>
+		</div>
+        <progress class="ui-circle-progress" id="circleprogress" max="150" value="0"></progress>
+	</div>
+	<script src="js/app.js">
+	</script>
+	<script src="js/lowBatteryCheck.js">
+	</script>
+</body>
+
+</html>
